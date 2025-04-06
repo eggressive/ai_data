@@ -1,5 +1,7 @@
-# This script loads a dataset, displays basic information and a preview,
-# calculates the number of observations and features, and checks for missing values.
+# This script loads a hotel reservations dataset, displays basic information and a preview,
+# calculates the number of observations and features, checks for missing values,
+# verifies chronological order of observations, analyzes the range of 'no_of_children',
+# visualizes its distribution, and evaluates lead time for bookings with corresponding plots.
 
 import pandas as pd
 import matplotlib.pyplot as plt
