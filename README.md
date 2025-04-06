@@ -1,43 +1,41 @@
-# Hotel Reservations Dataset
+# Dataset Analysis
 
-This repository contains a dataset related to hotel reservations. The dataset is stored in a CSV file and includes various attributes about reservations, such as meal plans, room types, booking channels, and cancellation statuses.
+This repository contains datasets related to hotel reservations and video game sales. The datasets are stored in CSV files and include various attributes for analysis, such as reservation details and sales data.
 
-## File Structure
+## Dataset Structure
 
-- `Hotel Reservations.csv`: The main dataset file containing hotel reservation data.
+- `Hotel Reservations.csv`: Dataset file containing hotel reservation data.
+- `C1M2_vgsales_2010_50.csv`: Dataset file containing video game sales data for 2010.
 
-## Dataset Description
+## Dataset Descriptions
 
-The dataset includes the following columns:
+### Hotel Reservations Dataset (Details)
 
-1. **Reservation ID**: Unique identifier for each reservation.
-2. **Number of Adults**: Number of adults included in the reservation.
-3. **Number of Children**: Number of children included in the reservation.
-4. **Number of Weekends Stayed**: Number of weekend nights included in the reservation.
-5. **Number of Weekdays Stayed**: Number of weekday nights included in the reservation.
-6. **Meal Plan**: Meal plan selected for the reservation.
-7. **Special Requests**: Number of special requests made by the guest.
-8. **Room Type**: Type of room reserved.
-9. **Lead Time**: Number of days between the booking date and the arrival date.
-10. **Booking Year**: Year of the booking.
-11. **Booking Month**: Month of the booking.
-12. **Booking Day**: Day of the booking.
-13. **Booking Channel**: Channel through which the booking was made (e.g., Online, Offline, Corporate).
-14. **Repeated Guest**: Indicates whether the guest is a repeated customer.
-15. **Previous Cancellations**: Number of previous cancellations by the guest.
-16. **Previous Bookings Not Canceled**: Number of previous bookings by the guest that were not canceled.
-17. **Average Daily Rate**: Average daily rate for the reservation.
-18. **Required Car Parking Spaces**: Number of car parking spaces required.
-19. **Reservation Status**: Status of the reservation (e.g., Canceled, Not_Canceled).
+This dataset contains information about hotel reservations, including details such as the number of guests, room types, meal plans, and reservation statuses. It is designed for classification tasks, such as predicting whether a reservation will be canceled or not. The dataset includes features like lead time, booking channel, and customer feedback scores, which can be used for trend analysis and predictive modeling.
+
+### Video Game Sales Dataset (Details)
+
+This dataset provides global video game sales data from 1980 to 2016. It includes attributes such as game titles, platforms, release years, genres, publishers, and sales figures across different regions (e.g., North America, Europe, Japan, and others). It is useful for analyzing trends in the gaming industry, identifying popular genres, and studying the impact of platforms on sales performance.
 
 ## Usage
 
-This dataset can be used for various purposes, including:
+The datasets can be used for various purposes, including:
+
+### Hotel Reservations Dataset
 
 - Analyzing booking trends and patterns.
 - Predicting reservation cancellations.
 - Understanding customer preferences for meal plans and room types.
 - Evaluating the impact of lead time on cancellations.
+- Exploring the relationship between customer feedback scores and reservation attributes.
+
+### Video Game Sales Dataset
+
+- Analyzing global video game sales trends over time.
+- Identifying popular genres and platforms.
+- Studying the impact of publishers on sales performance.
+- Comparing regional sales distributions (e.g., North America, Europe, Japan).
+- Exploring the relationship between release years and sales figures.
 
 ## License
 
