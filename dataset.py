@@ -3,19 +3,23 @@
 # verifies chronological order of observations, analyzes the range of 'no_of_children',
 # visualizes its distribution, and evaluates lead time for bookings with corresponding plots.
 
+# This dataset contains hotel reservations data, including features such as:
+# - Booking details (arrival date, lead time, number of children, etc.)
+# - Customer behavior (repeated guest, previous cancellations, etc.)
+# - Room preferences and special requests
+# The dataset is useful for classification tasks and predictive modeling.
+# Source: https://www.kaggle.com/datasets/ahsan81/hotel-reservations-classification-dataset
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
 # Load the dataset
-file_path = 'Hotel Reservations.csv'
+file_path = 'datasets/Hotel Reservations.csv'
 data = pd.read_csv(file_path)
 
-# Display basic info and preview
-df_hotel_reservations_info = data.info()
-df_hotel_reservations_preview = data.head()
-
-df_hotel_reservations_preview
+# Display the first few rows of the dataset
+print(data.head())
 
 # Get the number of observations and features
 num_observations = data.shape[0]
